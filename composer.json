@@ -1,0 +1,21 @@
+{
+    "name": "performing/inertia-laravel-components",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Performing\\Inertia\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giorgio Pogliani",
+            "email": "giorgiopogliani94@gmail.com"
+        }
+    ],
+    "require": {
+        "inertiajs/inertia-laravel": "^2.0",
+        "laravel/framework": "^12.2",
+        "illuminate/support": "*"
+    }
+}
